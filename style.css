@@ -1,0 +1,41 @@
+.form__input {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  width: 100%;
+}
+
+.todo__item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  height: 500px;
+  align-items: center;
+}
+
+.todo__input {
+  width: 60%;
+}
+.todo__content {
+  margin-top: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  opacity: 0.7;
+}
+
+.list-group {
+  margin-top: 20px;
+  width: 519px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: display .3s linear;
+}
+
+.list-group-item-click {
+  background-color: greenyellow;
+}
