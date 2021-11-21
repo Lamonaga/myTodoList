@@ -7,7 +7,7 @@ import {
 const todoItem = document.querySelector(".todo__item");
 const todoContent = document.querySelector(".todo__content");
 const todoInput = document.querySelector(".todo__input");
-const todoButton = document.querySelector(".btn");
+const todoButton = document.quer~ySelector(".btn");
 const todoForm = document.querySelector(".form__input");
 const todoUl = document.createElement("ul");
 const loadingIndicator = document.querySelector(".todo__loading");
