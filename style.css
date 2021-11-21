@@ -17,6 +17,7 @@
   width: 60%;
 }
 .todo__content {
+  display: none;
   margin-top: 100px;
   text-align: center;
   text-transform: uppercase;
@@ -27,6 +28,10 @@
 .list-group {
   margin-top: 20px;
   width: 519px;
+}
+
+.todo__loading {
+  display: none;
 }
 
 .list-group-item {
