@@ -1,4 +1,9 @@
-import { postTodoList, request, requestPatch, deleteItem } from "./module/api.js";
+import {
+  postTodoList,
+  request,
+  requestPatch,
+  deleteItem,
+} from "./module/api.js";
 const todoItem = document.querySelector(".todo__item");
 const todoContent = document.querySelector(".todo__content");
 const todoInput = document.querySelector(".todo__input");
@@ -43,7 +48,7 @@ async function renderList() {
     removeBtn.addEventListener("click", async () => {
       await deleteItem(elem.id, TODOS);
       TODOS = TODOS.filter((todo) => todo.id !== elem.id);
-      renderList()
+      renderList();
     });
 
     btnGreen.addEventListener("click", async (e) => {
